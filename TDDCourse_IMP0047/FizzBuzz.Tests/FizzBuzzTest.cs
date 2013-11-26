@@ -25,11 +25,13 @@ namespace FizzBuzz.Tests
         [TestCase(3, "fizz")]
         [TestCase(4, "4")]
         [TestCase(5, "buzz")]
+        [TestCase(15, "fizzbuzz")]
         public void Answer_InputEqualValue_OutputCorrect(int input, string expectedOutPut)
         {
             string output = this._fizzBuzz.Answer(input);
 
-            
+
+
             if ((input % 3) == 0)
             {
                 output = "fizz";
