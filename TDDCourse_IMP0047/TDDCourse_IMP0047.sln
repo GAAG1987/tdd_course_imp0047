@@ -1,7 +1,30 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{C70FA628-1912-4C03-BCB8-451087A19388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "FizzBuzz.Tests\FizzBuzz.Tests.csproj", "{84C9164F-D1E9-40A5-9769-3CD0D9CFDA4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{36C18DDE-AF50-4465-8D78-03A97CFEFC1A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C70FA628-1912-4C03-BCB8-451087A19388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70FA628-1912-4C03-BCB8-451087A19388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70FA628-1912-4C03-BCB8-451087A19388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70FA628-1912-4C03-BCB8-451087A19388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C9164F-D1E9-40A5-9769-3CD0D9CFDA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C9164F-D1E9-40A5-9769-3CD0D9CFDA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C9164F-D1E9-40A5-9769-3CD0D9CFDA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C9164F-D1E9-40A5-9769-3CD0D9CFDA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
