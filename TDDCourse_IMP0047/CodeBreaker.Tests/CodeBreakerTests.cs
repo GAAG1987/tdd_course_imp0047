@@ -21,12 +21,17 @@ namespace CodeBreaker.Tests
 
             [Test]
             
-            [TestCase("1234", "4")]
-            [TestCase("1233", "falso")]
-
-
-
-            public void Answer_InputEqualValue_OutputCorrect(String input, string expectedOutPut)
+           // [TestCase("1234", "4")]
+            [TestCase(1234, "--")]
+            [TestCase(2469, "")]
+            [TestCase(3172, "---")]
+            [TestCase(4317, "*--")]
+            [TestCase(5371, "*---")]
+            [TestCase(1357, "----")]
+            [TestCase(7315, "*---")]
+            [TestCase(5731, "**--")]
+            [TestCase(5713, "****")]
+            public void Answer_InputEqualValue_OutputCorrect(int input, string expectedOutPut)
             {
                 string output = this._CodeBreaker.Answer(input);
 

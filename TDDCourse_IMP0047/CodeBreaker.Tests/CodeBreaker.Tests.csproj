@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CodeBreaker">
-      <HintPath>..\CodeBreaker\bin\Debug\CodeBreaker.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\RomanConverter\bin\Debug\nunit.framework.dll</HintPath>
     </Reference>
@@ -47,6 +44,12 @@
   <ItemGroup>
     <Compile Include="CodeBreakerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeBreaker\CodeBreaker.csproj">
+      <Project>{a66012c6-7db7-4c3a-b316-7e640f123555}</Project>
+      <Name>CodeBreaker</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

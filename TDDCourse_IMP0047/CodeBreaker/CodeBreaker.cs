@@ -8,16 +8,32 @@ namespace CodeBreaker
 {
     public class CodeBreaker
     {
-        public string Answer(string input)
+        public string Answer(int input)
         {
-            if(input.Length==4)
+
+            char[] numero = new char[] { '5', '7', '1', '3' };
+            char[] intento = input.ToString().ToCharArray();
+            string existe = "";
+            string posicion = "";
+            for (int i = 0; i < 4; i++)
             {
-                return "4";
+                for (int j = 0; j < 4; j++)
+                {
+                    if (numero[i] == intento[j])
+                    {
+                        if (i == j)
+                        {
+                            posicion = posicion + "*";
+                        }
+                        else
+                        {
+                            existe = existe + "-";
+                        }
+                    }
+                }
+
             }
-
-
-
-            return input.Length.ToString();
+            return posicion + existe;
         }
 
     }
