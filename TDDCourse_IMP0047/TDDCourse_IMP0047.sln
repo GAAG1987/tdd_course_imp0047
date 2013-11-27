@@ -10,6 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{36C18D
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata1", "Kata1", "{7E0240AC-2C30-4F52-9957-6BC7C3DF3153}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata2", "Kata2", "{213B5FF2-554A-4BD9-82B9-B75BA0F4D3C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConverter", "RomanConverter\RomanConverter.csproj", "{D18A610A-F981-4516-B278-0C0DA9F916A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConverter.Tests", "RomanConverter.Tests\RomanConverter.Tests.csproj", "{8081F5FD-D00D-4EA1-B9AF-36271931B987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,8 +32,22 @@ Global
 		{84C9164F-D1E9-40A5-9769-3CD0D9CFDA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84C9164F-D1E9-40A5-9769-3CD0D9CFDA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84C9164F-D1E9-40A5-9769-3CD0D9CFDA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18A610A-F981-4516-B278-0C0DA9F916A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18A610A-F981-4516-B278-0C0DA9F916A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18A610A-F981-4516-B278-0C0DA9F916A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18A610A-F981-4516-B278-0C0DA9F916A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8081F5FD-D00D-4EA1-B9AF-36271931B987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8081F5FD-D00D-4EA1-B9AF-36271931B987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8081F5FD-D00D-4EA1-B9AF-36271931B987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8081F5FD-D00D-4EA1-B9AF-36271931B987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84C9164F-D1E9-40A5-9769-3CD0D9CFDA4E} = {7E0240AC-2C30-4F52-9957-6BC7C3DF3153}
+		{C70FA628-1912-4C03-BCB8-451087A19388} = {7E0240AC-2C30-4F52-9957-6BC7C3DF3153}
+		{D18A610A-F981-4516-B278-0C0DA9F916A9} = {213B5FF2-554A-4BD9-82B9-B75BA0F4D3C3}
+		{8081F5FD-D00D-4EA1-B9AF-36271931B987} = {213B5FF2-554A-4BD9-82B9-B75BA0F4D3C3}
 	EndGlobalSection
 EndGlobal

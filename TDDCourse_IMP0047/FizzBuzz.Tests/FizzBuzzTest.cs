@@ -30,8 +30,11 @@ namespace FizzBuzz.Tests
         {
             string output = this._fizzBuzz.Answer(input);
 
-
-
+            if ((input % 3) == 0 && (input % 5) == 0)
+            {
+                output = "fizzbuzz";
+            }
+            
             if ((input % 3) == 0)
             {
                 output = "fizz";
@@ -40,6 +43,11 @@ namespace FizzBuzz.Tests
             if ((input % 5) == 0)
             {
                 output = "buzz";
+            }
+
+            if ((input % 3) == 0 && (input % 5) == 0)
+            {
+                output = "fizzbuzz";
             }
 
             Assert.AreEqual(expectedOutPut, output);
